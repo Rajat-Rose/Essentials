@@ -1,0 +1,12 @@
+name: MidnightTeleport
+version: 1.0
+main: net.midnight.teleport.MidnightTeleport
+api-version: '1.21'
+description: Death Location /back and Snapshot /tpa Plugin for Midnight Lifesteal
+commands:
+  back:
+    description: Teleport to your last death location
+  tpa:
+    description: Send a TPA request to another player
+  tpaccept:
+    description: Accept a pending TPA request
